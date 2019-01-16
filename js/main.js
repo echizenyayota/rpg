@@ -13,4 +13,7 @@
         }
     }
 
+    const hero = new DragonFantasy('Tom', '勇者', '100');
+    
+
 }
