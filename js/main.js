@@ -13,6 +13,9 @@
         }
     }
 
+    const hero = new DragonFantasy('Tom', '勇者', '100');
+    console.log(hero.show());
+
     class DragonFantasyMp extends DragonFantasy {
         constructor(name, mp){
             super(name);
@@ -21,7 +24,6 @@
 
     }
 
-    const hero = new DragonFantasy('Tom', '勇者', '100');
-    console.log(hero.show())
+
 
 }
