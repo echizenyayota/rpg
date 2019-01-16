@@ -17,7 +17,7 @@
     console.log(hero.show());
 
     class DragonFantasyMp extends DragonFantasy {
-        constructor(name, job, hp, mp){
+        constructor(name, job, hp, mp){ // Bobの職業は戦士。現在のMPは0です。
             super(name, job, hp);
             this.mp = mp;
         }
