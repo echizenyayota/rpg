@@ -17,16 +17,18 @@
     console.log(hero.show());
 
     class DragonFantasyMp extends DragonFantasy {
-        constructor(job, mp){
-            super(job);
+        constructor(name, job, hp, mp){
+            super(name, job, hp);
             this.mp = mp;
         }
 
         showMp() {
-            return `${this.job}のMPは${this.mp}です。`;
+            return `${this.name}の職業は${this.job}。現在のMPは${this.mp}です。`;
         }
     }
 
+    const fighter = new DragonFantasyMp('Bob', '戦士', '200', '0');
+    console.log(fighter.showMp());
 
 
 }
