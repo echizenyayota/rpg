@@ -13,6 +13,10 @@
         }
     }
 
+    class DragonFantasyMp extends DragonFantasy {
+        
+    }
+
     const hero = new DragonFantasy('Tom', '勇者', '100');
     console.log(hero.show())
 
