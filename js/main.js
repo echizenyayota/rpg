@@ -27,6 +27,7 @@
     //     }
     // }
     //
+
     // const fighter = new DragonFantasyMp('Bob', '戦士', '200', '0');
     // console.log(fighter.showMp());
 
