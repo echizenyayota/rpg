@@ -14,7 +14,11 @@
     }
 
     class DragonFantasyMp extends DragonFantasy {
-        
+        constructor(name, mp){
+            super(name);
+            this.mp = mp;
+        }
+
     }
 
     const hero = new DragonFantasy('Tom', '勇者', '100');
